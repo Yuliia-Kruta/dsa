@@ -24,8 +24,11 @@ public class Tester {
         //MergeSort.mergeSortAsc(arr);
         //System.out.println("After merge sort:");
 
-        QuickSort.quickSortAsc(arr);
-        System.out.println("After quick sort:");
+        //QuickSort.quickSortAsc(arr);
+        //System.out.println("After quick sort:");
+
+        HeapSort.heapSortAsc(arr);
+        System.out.println("After heap sort:");
 
         System.out.println(Arrays.toString(arr));
     }
