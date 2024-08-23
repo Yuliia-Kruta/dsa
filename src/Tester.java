@@ -21,8 +21,11 @@ public class Tester {
         //InsertionSort.insertionSortAsc(arr);
         //System.out.println("After insertion sort:");
 
-        MergeSort.mergeSortAsc(arr);
-        System.out.println("After merge sort:");
+        //MergeSort.mergeSortAsc(arr);
+        //System.out.println("After merge sort:");
+
+        QuickSort.quickSortAsc(arr);
+        System.out.println("After quick sort:");
 
         System.out.println(Arrays.toString(arr));
     }
