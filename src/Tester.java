@@ -27,8 +27,11 @@ public class Tester {
         //QuickSort.quickSortAsc(arr);
         //System.out.println("After quick sort:");
 
-        HeapSort.heapSortAsc(arr);
-        System.out.println("After heap sort:");
+        //HeapSort.heapSortAsc(arr);
+        //System.out.println("After heap sort:");
+
+        ShellSort.shellSortAsc(arr);
+        System.out.println("After shell sort:");
 
         System.out.println(Arrays.toString(arr));
     }
