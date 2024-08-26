@@ -30,8 +30,11 @@ public class Tester {
         //HeapSort.heapSortAsc(arr);
         //System.out.println("After heap sort:");
 
-        ShellSort.shellSortAsc(arr);
-        System.out.println("After shell sort:");
+        //ShellSort.shellSortAsc(arr);
+        //System.out.println("After shell sort:");
+
+        CombSort.combSortAsc(arr);
+        System.out.println("After comb sort:");
 
         System.out.println(Arrays.toString(arr));
     }
