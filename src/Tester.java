@@ -24,6 +24,9 @@ public class Tester {
         //MergeSort.mergeSortAsc(arr);
         //System.out.println("After merge sort:");
 
+        IterativeMergeSort.mergeSortAsc(arr);
+        System.out.println("After merge sort:");
+
         //QuickSort.quickSortAsc(arr);
         //System.out.println("After quick sort:");
 
@@ -33,8 +36,8 @@ public class Tester {
         //ShellSort.shellSortAsc(arr);
         //System.out.println("After shell sort:");
 
-        CombSort.combSortAsc(arr);
-        System.out.println("After comb sort:");
+        //CombSort.combSortAsc(arr);
+        //System.out.println("After comb sort:");
 
         System.out.println(Arrays.toString(arr));
     }
