@@ -44,9 +44,14 @@ The sorting algorithms included are:
 
 <h2>Getting Started</h2>
 To get a local copy up and running, follow these simple steps:
-<br/>
+<br/><br/>
 
-Clone the sorting-algorithms branch.<br/><br/>
+Clone the dsa repository:<br/>
+git clone https://github.com/Yuliia-Kruta/dsa.git<br/><br/>
+Navigate to the project directory:<br/>
+cd dsa<br/><br/>
+Checkout the specific branch:<br/>
+git checkout sorting-algorithms<br/><br/>
 Compile the program using javac:<br/>
 javac SortAlgorithms.java<br/><br/>
 Run the compiled program using java:<br/>
